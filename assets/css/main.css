@@ -1,0 +1,137 @@
+/* Font Nunito */
+@font-face {
+  font-display: swap;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunito-v26-latin-regular.woff2") format("woff2");
+}
+
+:root {
+  --bg-yellow-color: #ffab08;
+  --bg-orange-color: #ff7020;
+  --bg-black-color: #000000;
+  --bg-light-white-color: #f9f9f9;
+  --bg-middle-white-color: #f2f2f3;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito" !important;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+
+@media only screen and (max-width: 576px) {
+  /* Handle Margin */
+  .mt-4 {
+    margin-top: 4px;
+  }
+  .mt-8 {
+    margin-top: 8px;
+  }
+  .mt-16 {
+    margin-top: 16px;
+  }
+  .mt-18 {
+    margin-top: 18px;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+  .mt-30 {
+    margin-top: 30px;
+  }
+  .mt-34px {
+    margin-top: 34px;
+  }
+  .mr-8 {
+    margin-right: 8px;
+  }
+  .my-24 {
+    margin-block: 24px;
+  }
+  .my16 {
+    margin-top: 16px;
+    margin-bottom: 7px;
+  }
+  my-29 {
+    margin-top: 29px;
+    margin-bottom: 8px;
+  }
+
+  /* Handle Padding */
+  .pt-30 {
+    padding-top: 30px;
+  }
+  .pl-10 {
+    padding-left: 10px;
+  }
+  .pb-80 {
+    padding-bottom: 80px;
+  }
+  .pbl-24 {
+    padding-block: 24px;
+  }
+  .pin-10px {
+    padding-inline: 10px;
+  }
+  .py-16 {
+    padding-block: 16px;
+  }
+
+  /* Btn uchun padding */
+  .h-py9 {
+    padding-block: 9px;
+  }
+  .h-py7 {
+    padding-block: 7px;
+  }
+  /* Input uchun padding */
+  .h-iy8 {
+    padding-block: 8.5px;
+    padding-inline: 12px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* btn uchun code */
+  .h-py12 {
+    padding-block: 12px;
+  }
+  .h-btn {
+    padding-block: 9px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .h-bt12 {
+    border-radius: 12px;
+  }
+}
